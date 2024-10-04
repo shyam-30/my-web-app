@@ -14,7 +14,7 @@ pipeline{
         script{
           docker.build("${IMAGE_NAME}")
         }
-        
+      }
 
     }
     stage('run docker container'){
