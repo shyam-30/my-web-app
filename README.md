@@ -23,7 +23,7 @@ This project demonstrates a CI/CD pipeline using **Jenkins**, **Docker**, and **
 **Push to Docker Hub:** The built image is pushed to Docker Hub.
 **Run Container (Optional):** Run the built Docker container in a test or production environment.
 ## How to Run the Project
-## Prerequisites
+ **Prerequisites**
 Jenkins installed with Docker integration.
 A Docker Hub account.
 GitHub repository set up with a Jenkinsfile for pipeline configuration.
