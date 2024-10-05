@@ -1,4 +1,4 @@
-My-Web-App CI/CD Pipeline
+##My-Web-App CI/CD Pipeline##
 Project Overview
 This project demonstrates a CI/CD pipeline using jenkins, Docker and AWS . The pipeline is design to build , test and deploy a web application . The key steps include:
 Building a docker image for a simple web application 
