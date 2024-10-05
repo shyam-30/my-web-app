@@ -32,13 +32,13 @@ This project demonstrates a CI/CD pipeline using **Jenkins**, **Docker**, and **
 git clone https://github.com/shyam-30/my-web-app.git
 - **cd my-web-app**
 - **Build and run Docker image:**
-- docker build -t shyam30/my-web-app .
-- docker run -p 3000:3000 shyam30/my-web-app
+ docker build -t shyam30/my-web-app .
+&& docker run -p 3000:3000 shyam30/my-web-app
 - **Push the Docker image to Docker Hub:**
-- **docker login**
-- docker push shyam30/my-web-app
+ **docker login**
+  && docker push shyam30/my-web-app
 - **Configure Jenkins:**
-- Set up Jenkins with a pipeline to trigger the build and push on new commits.
+ Set up Jenkins with a pipeline to trigger the build and push on new commits.
 
  ## Credentials Handling
 - Docker Hub credentials are securely stored in Jenkins credentials and accessed using withCredentials to prevent exposing sensitive information.
